@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="212288" started-at="2020-12-08T16:59:11Z" finished-at="2020-12-08T17:02:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.srpint2_Orange.TestRunner_TestNG@29ca901e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="212288" started-at="2020-12-08T16:59:11Z" finished-at="2020-12-08T17:02:43Z">
+      <class name="com.srpint2_Orange.TestRunner_TestNG">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.srpint2_Orange.TestRunner_TestNG@29ca901e]" name="setUpClass" is-config="true" duration-ms="436" started-at="2020-12-08T22:29:11Z" finished-at="2020-12-08T22:29:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.srpint2_Orange.TestRunner_TestNG@29ca901e]" name="feature" duration-ms="211582" started-at="2020-12-08T22:29:12Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-08T22:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OrangeHRM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.srpint2_Orange.TestRunner_TestNG@29ca901e]" name="tearDownClass" is-config="true" duration-ms="123" started-at="2020-12-08T22:32:43Z" finished-at="2020-12-08T22:32:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.srpint2_Orange.TestRunner_TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
